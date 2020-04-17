@@ -8,17 +8,16 @@
  
 # Database setup
   1) create database with name bloodbank
-  2) create tables according to images given in project
-     * All tables list 
-          - tablelist.png
-     * tables stuctures list - 
-          - table1.png
-          - table2.png
-          - table3.png
-          - table4.png
-          - table5.png
-          - table6.png
-          - table7.png
+  2) create tables according to images given below   
+   ![Image description](tablelist.png)                         
+   ![Image description](table1.png)
+   ![Image description](table2.png)
+   ![Image description](table3.png)
+   ![Image description](table4.png)
+   ![Image description](table5.png)
+   ![Image description](table6.png)
+   ![Image description](table7.png)
+
           
 # Before Execution of project
   Move project files folder into /path_to_apache_installed_folder/apache_folder_name/webapps/
