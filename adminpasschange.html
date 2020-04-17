@@ -1,0 +1,106 @@
+<html>
+<head>
+	<title>Admin Login</title>
+
+	<style>
+
+body{
+  margin: 0;
+  padding: 0;
+  font-family: sans-serif;
+  background: lightblue;
+	
+}
+
+nav{
+	width: 100%;
+	height: 100px;
+	display: flex;
+}
+
+.logoimage{
+	width: 10%;
+}
+
+
+.logoimage img{
+	height: 100%;
+	width: 80%;
+	padding-left: 25%;
+	padding-top: 15%;
+}
+.logoname{
+	width: 40%;
+	line-height: 5px;
+}
+
+.logoname h1{
+	padding-left: 10px;
+	font-size: 45px;
+}
+
+.logoname h3{
+	padding-left: 10px;
+	font-size: 25px;
+}
+
+
+nav .menu {
+	margin-left : 30%;
+	margin-top : 20px;
+}
+
+.abc{
+	font-size : 20px;
+	margin-top : 30px;
+	margin-left : 15%;
+}
+
+form h1{
+margin-top : 6%;
+}
+
+input[type="password"]{
+margin : 10px;
+}
+
+Button{
+	margin-top : 10px;
+	font-size : 20px;
+}
+
+.abc a{
+margin-right : 20px;
+margin-left: 20px;
+}
+
+
+	</style>
+	</head>
+<body>
+	<header class="logo">
+		<nav>
+			<div class="logoimage">
+				<img src="blood.png">
+			</div>
+			<div class="logoname">
+				<h1>Blood Bank</h1>
+				<h3>Management System</h3>
+			</div>
+			<div class="abc">
+				<a href="homepage.html">Home Page</a>
+				<a href="adminpage.html">Admin Home Page</a>
+			</div>
+		</nav>
+	</header>	
+
+<center>
+<form action="adminpasschange.jsp" method="post">
+<h1>Change Password</h1>
+<label>Current Password : </label><input type="password" name="currentpassword"><br><br>
+<label>New Password : </label><input type="password" name="newpassword"><br><br>
+<button>Submit</button>
+
+</center>
+</body>
+</html>

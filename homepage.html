@@ -1,0 +1,221 @@
+<html>
+<head>
+	<title>Home Page</title>
+	</head>
+<style>
+
+body{
+  margin: 0;
+  padding: 0;
+  font-family: sans-serif;
+  background: linear-gradient(to right, #33ccff 10%, #ff99cc 90%);
+}
+
+
+nav{
+	width: 100%;
+	height: 100px;
+	display: flex;
+
+}
+
+.blogo{
+	width: 15%;
+}
+
+
+.blogo img{
+	height: 100%;
+	width: 80%;
+	padding-left: 25%;
+	padding-top: 15%;
+}
+.logo{
+	width: 50%;
+	line-height: 5px;
+}
+
+.logo h1{
+	padding-left: 10px;
+	font-size: 45px;
+}
+
+.logo h3{
+	padding-left: 10px;
+	font-size: 25px;
+}
+
+.menu{
+	width: 40%;
+	height: 100px;
+	margin:0 5% 0 20%;
+}
+
+.menu ul{
+	width: 100%;
+	height: 100px;
+	display: flex;
+	flex-direction: row;
+	justify-content: space-around;
+	align-items: center;
+}
+
+.menu ul li{
+	list-style: none;
+	font-size: 15x;
+	font-weight: bold;
+	text-transform: uppercase;
+}
+
+a{
+	color: black;
+}
+
+.bimg{
+	width: 50%;
+	height:30%;
+	margin-left: 75px;
+	margin-right:10px;
+	margin-top: 40px;
+}
+
+.menu .ah{
+	text-decoration: none;
+}
+
+.flex-container{
+	display: flex;
+	justify-content: space-around;
+	margin-left: 20%;
+	margin-right: 20%;
+}
+
+
+
+.quote{div
+	margin: 0px;
+	width: 100%;
+	padding: 0px;
+	display: flex;
+	flex-direction: row;
+}
+
+blockquote {
+  min-height: 50px;
+  width: 700px;
+  padding-top: 40px;
+  padding-left: 10px;
+  font      : 26px sans-serif;
+  position  : relative;
+}
+
+blockquote::before,
+blockquote::after {
+  position: absolute;
+  height  : 3rem;
+  font    : 30px Georgia, "Times New Roman", Times, serif;
+}
+
+blockquote:lang(fr)::before {
+  content: '«';
+  top    : -1.5rem;
+  left   : 0.5rem;
+}
+
+blockquote:lang(fr)::after {
+  content: '»';
+  bottom : 2.6rem;
+  right  : 0.5rem
+}
+
+
+
+blockquote i {
+  display   : block;
+  font-size : 0.8em;
+  margin-top: 1rem;
+  text-style: italic;
+  text-align: right;
+}
+
+h6{
+	font-size: 30px;e
+	margin-left: 10px;
+	margin-top: 40px;
+	text-align: center;
+}
+
+.mySlides{
+	height: 400px;
+	width: 300px;
+}
+
+.qs{
+	font-size: 30px;
+}
+
+.sbox{
+	text-decoration: none;
+background:brown;
+box-shadow : 5px 10px 8px 5px;
+height : 100px;
+width: 150px;e
+margin-right : 50px;
+padding-top : 25px;	 
+padding-left : 25px;
+padding-right : 25px;
+border-radius : 20px;
+}
+
+.sbox a{
+	text-decoration: none;
+}
+</style>
+
+
+
+<body>
+
+	<header class="topmenu">
+		<nav>
+			<div class="blogo">
+				<img src="blood.png">
+			</div>
+			<div class="logo">
+				<h1>Blood Bank</h1>
+				<h3>Management System</h3>
+			</div>
+			<div class="menu">
+				<ul>
+					<li><a class="tm"href="aboutus.html">About Us</a></li>
+					<li><a class="tm"href="whocangiveblood.html">Who Can Donate Blood?</a></li>
+				</ul>		
+			</div>
+		</nav>
+	</header>	
+
+<div class="quote">
+<div class="bimg" style="max-width:500px">
+  <img class="mySlides" src="ab.png" style="width:100%">
+</div>
+<div class="bq">
+	<blockquote><q class="qs" id="myQ" style="quotes:'\00ab' '\00bb';">   If you are a blood donor, you are a hero to someone, somewhere, who received your gracious gift of life.</q></blockquote>
+
+	<blockquote><q class="qs" id="myQ" style="quotes:'\00ab' '\00bb';"> Blood can circulate forever if you keep donating it.</q></blockquote>
+
+		<blockquote><q class="qs" id="myQ" style="quotes:'\00ab' '\00bb';">  Every blood donor is a life saver</q></blockquote>
+
+
+</div>
+</div>
+
+
+<div class="flex-container">
+  <div><h6 class="sbox"><a href="bloodsearch.jsp">Search Blood</a></h6></div>
+  <div><h6 class="sbox"><a href="donorlogin.html">Donate Blood</a></h6></div>
+  <div><h6 class="sbox"><a href="adminlogin.html">Admin</h6></div>
+</div>
+
+
+</body>
+</html>
