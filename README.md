@@ -1,6 +1,6 @@
 # Requirements -
   1) Apache Tomcat Server Installation
-  2) Database setup
+  2) Database setup [MySQL or MariaDB]
   3) Any Browser
   
 # Apache Tomcat  
